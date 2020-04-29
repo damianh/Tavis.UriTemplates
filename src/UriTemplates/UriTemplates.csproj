@@ -1,23 +1,18 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net35;net40;net45;netstandard1.0;netstandard2.0</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <RootNamespace>Tavis</RootNamespace>
     <AssemblyName>Tavis.UriTemplates</AssemblyName>
     <Description>URI Template resolution library - Implementation of RFC 6570</Description>
     <Authors>Darrel Miller</Authors>
-    <Version>1.1.2</Version>
     <PackageReleaseNotes><![CDATA[
             For full release notes see https://github.com/tavis-software/Tavis.UriTemplates/blob/master/ReleaseNotes.md
             ]]></PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/tavis-software/Tavis.UriTemplates</PackageProjectUrl>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <RepositoryType>git</RepositoryType>
-  </PropertyGroup>
-
-  <PropertyGroup Condition="'$(TargetFramework)'!='netstandard1.0'">
     <DefineConstants>DEBUG;TRACE;TYPE_CONVERTER</DefineConstants>
   </PropertyGroup>
-
 </Project>
