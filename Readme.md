@@ -1,5 +1,7 @@
 # Uri Templates # 
-![Build Status](https://ci.appveyor.com/api/projects/status/nol9sb59uvxvgt8l?svg=true) [![NuGet](https://img.shields.io/nuget/v/Tavis.UriTemplates.svg?label=NuGet)](https://www.nuget.org/packages/Tavis.UriTemplates/)
+[![NuGet](https://img.shields.io/nuget/v/Damian.UriTemplates.svg?label=NuGet)](https://www.nuget.org/packages/Damian.UriTemplates/)
+
+⚠ **This is a fork of [Tavis.UriTemplates](https://github.com/tavis-software/Tavis.UriTemplates) that supports `netstandard2.0` that unblocks me and my colleagues. The package on nuget.org will be delisted if and when the origin project and package is updated.**
 
 .NET implementation of the [URI Template Spec RFC6570](http://tools.ietf.org/html/rfc6570). 
 
