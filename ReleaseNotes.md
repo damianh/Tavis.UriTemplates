@@ -1,5 +1,9 @@
 # Uri Templates #
 
+##2.0.0
+- Forked
+- Supports netstandard2.0 only.
+
 ##1.1.2
 - Added Type converter support 
 
